@@ -2,6 +2,7 @@
   "name": "web_ssr",
   "version": "1.0.1",
   "type": "module",
+  "main": "dist/server.js",
   "description": "Boilerplate for a modern web stack",
   "repository": {
     "type": "git",
