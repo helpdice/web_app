@@ -1,0 +1,78 @@
+.question {
+  margin-top: .5rem;
+  border: 1px solid #EAECEE;
+  border-radius: .5rem;
+  padding: .8rem;
+}
+.question .choices {
+  min-width: 300px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.question .choices .choice {
+  position: relative;
+}
+
+.question .choices .choice input {
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+}
+
+.question .choices .choice .chead {
+  background-color: #212F3D;
+  margin: 0.2rem 0;
+}
+
+.question .choices .choice label {
+  font-weight: normal;
+  cursor: pointer;
+  display: block;
+  width:95%;
+  padding: 9px;
+  margin: .2rem 0;
+  /* border-radius: 5px; */
+  color: white;
+  background: #2874A6;
+}
+
+.question_wrong {
+  background-color: #E74C3C !important;
+}
+
+.question_right {
+  background-color: #2ECC71 !important;
+}
+
+.question .choices .choice label:hover {
+  /* background: #8d8; */
+}
+/* .question .choices .choice label .glyphicon {
+margin-right: 8px;
+color: #888;
+} */
+/* .question .choices .choice input:checked + label {
+background: #3c3;
+} */
+
+.question .choices .choice input:checked+label .glyphicon {
+  color: #fff;
+}
+.explain {
+  overflow-x: auto;
+  border-bottom: 1px solid #212F3D;
+  border-left: 1px solid #212F3D;
+  border-right: 1px solid #212F3D;
+}
+.explain-head {
+  background-color: #212F3D;
+}
+.explain pre {
+  text-align: left;
+  text-wrap: wrap;
+}
+@media screen and (min-width:922px) {
+  .col-mx-7 {
+      width: 58.33%;
+  }
+}
